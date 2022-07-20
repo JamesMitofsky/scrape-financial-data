@@ -1,0 +1,16 @@
+{
+  "name": "scrape-financial-data",
+  "version": "1.0.0",
+  "description": "Scrapes data from the Vermont Federal Credit Union site, uploads to Google Sheets, and — if there's a delta against the previously documented data in Sheets — sends an email with the changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Mitofsky",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "firebase": "^9.9.0",
+    "googleapis": "^39.2.0"
+  }
+}
